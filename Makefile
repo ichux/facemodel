@@ -48,3 +48,8 @@ help:
 # help: 7				- Step 7: install essential libraries
 7:
 	@pip install -r facenet/requirements.txt
+
+.PHONY: 8
+# help: 8				- Step 8: extract pre-trained model
+8:
+	@unzip -qo pre-trained-models/20180408-102900.zip -d pre-trained-models/
