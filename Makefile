@@ -43,3 +43,8 @@ help:
 	@rm -rf images/lfw && mkdir -p images/lfw/raw/ && \
 	unzip -qo images/lfw.zip -d images/lfw/raw/ && \
 	tar xvf images/lfw.tgz -C images/lfw/raw --strip-components=1
+
+.PHONY: 7
+# help: 7				- Step 7: install essential libraries
+7:
+	@pip install -r facenet/requirements.txt
