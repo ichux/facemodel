@@ -39,7 +39,7 @@ help:
 
 
 .PHONY: 6
-# help: 6				- Step 5: extract both lfw.tgz and lfw.zip
+# help: 6				- Step 6: extract both lfw.tgz and lfw.zip
 6:
 	@rm -rf images/lfw && mkdir -p images/lfw/raw/ && \
 	unzip -qo images/lfw.zip -d images/lfw/raw/ && \
