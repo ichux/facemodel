@@ -16,6 +16,9 @@ make 4
 
 # trains
 ./train_classifier.sh
+
+# classify
+./classify.sh
 ```
 
 # 

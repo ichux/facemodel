@@ -20,7 +20,7 @@ help:
 .PHONY: 2
 # help: 2				- Step 2: make the sh files executable, if necessary
 2:
-	@chmod +x convert_lfw.sh validate_on_lfw.sh train_classifier.sh downloads.sh
+	@chmod +x convert_lfw.sh validate_on_lfw.sh train_classifier.sh downloads.sh classify.sh
 
 .PHONY: 3
 # help: 3				- Step 3: download essential files
