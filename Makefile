@@ -37,7 +37,6 @@ help:
 5:
 	@rm -rf images/lfw && mkdir -p images/lfw/raw/ && tar xvf images/lfw.tgz -C images/lfw/raw --strip-components=1
 
-
 .PHONY: 6
 # help: 6				- Step 6: extract both lfw.tgz and lfw.zip
 6:
